@@ -1,3 +1,5 @@
+Correlaciones - ROIs + Conectividad Funcional y alguna otra variable de interés, p. ej. valores cognitivos, etc.
+
 Pasos:
 1.- Hacer las ROIs esféricas con los comandos de FSL, y seguir los pasos del archivo EXCEL, "ROIs_comandos_FSL.xlsx", donde se ejecutan los comandos FSLMEANTS; 
 los resultados se guardan en archivos TXT. Colocar todo en carpetas por separado, y el script del paso 2, 
@@ -11,3 +13,5 @@ va a generar los Z-values (los guarda en un archivo CSV). Se colocan en la carpe
 
 
 3.- Ejecutar el "correlaciones_IED_conectividad_funcional_v3.m"; para el cálculo de Spearman de los Z-values y alguna prueba cognitiva, en este caso IED de CANTAB, controlando por la edad.
+
+
